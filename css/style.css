@@ -1,0 +1,31 @@
+html, body {margin: 0;padding: 0;overflow: hidden;font-size: 75%;}
+body {color: #666666;font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif;line-height:18px;}
+#LeftPane {overflow: auto;}
+#RightPane {padding: 2px;overflow: auto;}
+.ui-tabs-nav li {position: relative;}
+.ui-tabs-selected a span {padding-right: 10px;}
+.ui-tabs-close {display: none;position: absolute;top: 3px;right: 0px;z-index: 800;width: 16px;height: 14px;font-size: 10px; font-style: normal;cursor: pointer;}
+.ui-tabs-selected .ui-tabs-close {display: block;}
+.ui-layout-west .ui-jqgrid tr.jqgrow td { border-bottom: 0px none;}
+.ui-datepicker {z-index:1200;}
+.ui-searchFilter {display: none;overflow: visible;position: absolute;z-index: 770;}
+.ui-jqdialog-content .CaptionTD {width:70px;vertical-align:middle;}
+.ui-jqdialog-content .FormElement {width: 80%;}
+.signature {text-align:right;padding:10px 10px 0;color: #000000;font-size:1.15em}
+a {text-decoration: none;color: #15ADFF;cursor:pointer;}
+a:hover {text-decoration: underline;}
+#tabs{min-height:490px;}
+.right{float:right;display:inline;}
+.left{float:left;display:inline;}
+.clear{clear:both}
+#logoff{margin:5px 10px 0 0;font-size:1.1em;}
+.ui-tabs .ui-tabs-panel {padding:1em;}
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; }
+.ui-timepicker-div dl dd { margin: -25px 0 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.tb_bor{background-color:#999999;color:#FFFFFF;}
+.tb_header{background-color:black;}
+ .ui-jqgrid tr.jqgrow td {white-space: normal !important;}
+ .searchButton{margin-left:30px;}
